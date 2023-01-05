@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyChat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_mychat_text">MyChat is a secure chatting application for Android 5.0 and up and higher focused on security and performance</string>
+    <string name="permission">Permissions</string>
+    <string name="permissions_text">MyChat requires some permission. Please grant those permissions to MyChat.</string>
+    <string name="kindly_grant_permissions">Kindly grant all the permissions</string>
+</resources>

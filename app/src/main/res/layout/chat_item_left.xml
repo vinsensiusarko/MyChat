@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/messageLayout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/profile_image"
+        android:layout_marginStart="5dp"
+        android:text="hello"
+        android:textColor="@android:color/black"
+        android:id="@+id/show_message"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:background="@drawable/background_left"/>
+
+    <ImageView
+        android:id="@+id/messageIv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_toEndOf="@id/profile_image"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/show_message"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_image_black"
+        android:scaleType="fitCenter"
+        android:background="@drawable/background_left"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_seen"
+        android:visibility="gone"
+        android:layout_below="@id/show_message"/>
+
+
+</RelativeLayout>

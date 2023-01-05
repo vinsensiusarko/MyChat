@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0091A3</color>
+    <color name="colorPrimaryDark">#005D68</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="purple_500">#FF6200EE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="greenDark">#28852C</color>
+    <color name="greenLight">#76FF03</color>
+    <color name="grey">#C4CABE</color>
+    <color name="black">#000000</color>
+
+    <color name="md_red_500">#D66159</color>
+    <color name="md_amber_500">#FFC107</color>
+    <color name="md_white_1000">#ffffff</color>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/add_image"
+        android:title="Add Story"
+        android:id="@+id/main_add_story"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:title="Account Setting"
+        android:id="@+id/main_setting_option"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Change Password"
+        android:id="@+id/main_change_password_option"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Permission"
+        android:id="@+id/main_permission_option"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Logout"
+        android:id="@+id/main_logout_option"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="About"
+        android:id="@+id/main_about_option"
+        app:showAsAction="never">
+    </item>
+
+</menu>
