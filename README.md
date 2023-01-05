@@ -1,6 +1,6 @@
 # MyChat
 
-Aplikasi Chatting menggunakan Firebase database dan Enkripsi AES 128 bit 
+Aplikasi Chatting Android, menggunakan Firebase database dan Enkripsi AES 128 bit
 
 ## Feature
 - [✅] Send Message
