@@ -51,9 +51,9 @@ import static arko.chatapp.IncomingCallScreenActivity.MESSAGE_ID;
 
 public class SinchService extends Service {
 
-    static final String APP_KEY = "e6130972-f500-4c1d-beb1-61ecdf0cee41";  //add your keys
-    static final String APP_SECRET = "gi9J8bcupUq5k4GU2qRmfA=="; //add your secret
-    static final String ENVIRONMENT = "clientapi.sinch.com";
+    static final String APP_KEY = "";  //add your keys
+    static final String APP_SECRET = ""; //add your secret
+    static final String ENVIRONMENT = ""; //add your environment
 
     public static final int MESSAGE_PERMISSIONS_NEEDED = 1;
     public static final String REQUIRED_PERMISSION = "REQUIRED_PESMISSION";
