@@ -1,8 +1,9 @@
 # MyChat
 
-Aplikasi Chatting Android, menggunakan Firebase database dan Enkripsi AES 128 bit
+Chat App, build with Java, Firebase database
 
 ## Feature
+- ✅ Encryption AES 128-bit
 - ✅ Send Message
 - ✅ Delete Message
 - ✅ Notifications with firebase cloud messaging
